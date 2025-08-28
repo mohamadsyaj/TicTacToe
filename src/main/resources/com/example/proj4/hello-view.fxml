@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="427.0" prefWidth="600.0"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.proj4.HelloController">
+
+    <children>
+        <FlowPane layoutX="133.0" layoutY="104.0" prefHeight="261.0" prefWidth="334.0">
+            <children>
+                <Button fx:id="button1" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button2" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button3" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button4" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button5" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button6" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button7" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button8" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+                <Button fx:id="button9" mnemonicParsing="false" prefHeight="86.0" prefWidth="111.0" onAction="#handleButtonClick">
+                    <font><Font size="35.0" /></font>
+                </Button>
+            </children>
+        </FlowPane>
+
+        <Text fill="RED" layoutX="209.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic Tac Toe">
+            <font><Font size="37.0" /></font>
+        </Text>
+
+        <Text fx:id="winner" layoutX="230.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0">
+            <font><Font size="20.0" /></font>
+        </Text>
+    </children>
+</Pane>
